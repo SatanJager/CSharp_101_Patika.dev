@@ -23,6 +23,17 @@
             "stopAtEntry": false,
         },
         {
+            "name": "Debug Day02",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/00-Hackerrank/Day02/bin/Debug/net10.0/Day02.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/00-Hackerrank/Day02",
+            "console": "integratedTerminal",
+            "stopAtEntry": false,
+        },
+        {
             "name": "Debug Console",
             "type": "coreclr",
             "request": "launch",

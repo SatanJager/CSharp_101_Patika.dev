@@ -1,6 +1,7 @@
 {
   "version": "2.0.0",
-  "tasks": [{
+  "tasks": [
+    {
       "label": "build",
       "type": "process",
       "command": "dotnet",
@@ -14,10 +15,23 @@
         "isDefault": true
       }
     },
+    {
+      "label": "build",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "00-Hackerrank/Day02/Day02.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
 
 
 
-    
     {
       "label": "build",
       "type": "process",

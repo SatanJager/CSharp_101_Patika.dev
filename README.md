@@ -2,6 +2,10 @@
 
 C# 101 dersleri, çalışmaları, kaynakçaları ve yapılan ödevleri içermektedir.
 
+* Framework Version: .Net Framework 10.0
+* IDE: Visual Studio Code & Visiual Studio
+
+
 ## Ödevler
 
 *   
