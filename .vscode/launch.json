@@ -12,6 +12,17 @@
             "processId": "${command:pickProcess}"
         },
         {
+            "name": "Debug Day00",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/00-Hackerrank/Day00/bin/Debug/net10.0/Day00.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/00-Hackerrank/Day00",
+            "console": "integratedTerminal",
+            "stopAtEntry": false,
+        },
+        {
             "name": "Debug Console",
             "type": "coreclr",
             "request": "launch",
@@ -21,7 +32,6 @@
             "cwd": "${workspaceFolder}/03-Consol",
             "console": "externalTerminal",
             "stopAtEntry": false,
-
         },
         {
             "name": "Debug Degisken",
@@ -33,9 +43,19 @@
             "cwd": "${workspaceFolder}/04-degisken",
             "console": "externalTerminal",
             "stopAtEntry": false,
-
         },
 
+        {
+            "name": "Debug Operatorler",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/05-operatorler/bin/Debug/net10.0/05-operatorler.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/05-operatorler",
+            "console": "integratedTerminal",
+            "stopAtEntry": false,
+        },
 
 
     ]

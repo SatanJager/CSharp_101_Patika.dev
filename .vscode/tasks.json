@@ -1,6 +1,23 @@
 {
   "version": "2.0.0",
-  "tasks": [
+  "tasks": [{
+      "label": "build",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "00-Hackerrank/Day00/Day00.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+
+
+
+    
     {
       "label": "build",
       "type": "process",
@@ -16,7 +33,7 @@
       }
     },
 
-  {
+    {
       "label": "build",
       "type": "process",
       "command": "dotnet",
@@ -29,9 +46,22 @@
         "kind": "build",
         "isDefault": true
       }
+    },
+
+    {
+      "label": "build",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "05-operatorler/05-operatorler.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
     }
-
-
 
 
 
