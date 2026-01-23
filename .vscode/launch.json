@@ -68,6 +68,17 @@
             "stopAtEntry": false,
         },
 
+        {
+            "name": "Debug Tip Dönüşümleri",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/06-tip_donusumleri/bin/Debug/net10.0/06-tip_donusumleri.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/06-tip_donusumleri",
+            "console": "integratedTerminal",
+            "stopAtEntry": false,
+        },
 
     ]
 }

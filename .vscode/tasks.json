@@ -75,6 +75,21 @@
         "kind": "build",
         "isDefault": true
       }
+    },
+
+    {
+      "label": "build",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "06-tip_donusumleri/06-tip_donusumleri.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
     }
 
 
