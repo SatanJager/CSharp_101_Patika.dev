@@ -1,7 +1,6 @@
 {
   "version": "2.0.0",
-  "tasks": [
-    {
+  "tasks": [{
       "label": "build",
       "type": "process",
       "command": "dotnet",
@@ -15,6 +14,7 @@
         "isDefault": true
       }
     },
+    
     {
       "label": "build",
       "type": "process",
@@ -29,8 +29,20 @@
         "isDefault": true
       }
     },
-
-
+    {
+      "label": "build",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "00-Hackerrank/solve_me_first/solve_me_first.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
 
     {
       "label": "build",
@@ -90,7 +102,22 @@
         "kind": "build",
         "isDefault": true
       }
-    }
+    },
+
+    {
+      "label": "build",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "07_1-try_catch/07_1-try_catch.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
 
 
 

@@ -34,6 +34,19 @@
             "stopAtEntry": false,
         },
         {
+            "name": "Debug Day02",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/00-Hackerrank/solve_me_first/bin/Debug/net10.0/solve_me_first.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/00-Hackerrank/solve_me_first",
+            "console": "integratedTerminal",
+            "stopAtEntry": false,
+        },
+
+
+        {
             "name": "Debug Console",
             "type": "coreclr",
             "request": "launch",
@@ -76,6 +89,18 @@
             "program": "${workspaceFolder}/06-tip_donusumleri/bin/Debug/net10.0/06-tip_donusumleri.dll",
             "args": [],
             "cwd": "${workspaceFolder}/06-tip_donusumleri",
+            "console": "integratedTerminal",
+            "stopAtEntry": false,
+        },
+
+        {
+            "name": "Debug Tip Dönüşümleri",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/07_1-try_catch/bin/Debug/net10.0/07_1-try_catch.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/07_1-try_catch",
             "console": "integratedTerminal",
             "stopAtEntry": false,
         },

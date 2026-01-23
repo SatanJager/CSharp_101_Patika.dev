@@ -25,3 +25,9 @@ C# 101 dersleri, çalışmaları, kaynakçaları ve yapılan ödevleri içermekt
 * Değişkenler ve Veri Tipleri
 ### Operatörler
 ### Tip Dönüşümleri
+### Hata Yönetimi ve Kod İzleme
+* Try Catch Finally ve Mantıksal Hatalar
+* Debugging, Watch ve Variables Pencereleri
+### Karar Yapıları
+* If-Else If-Ternary-If
+* Switch Case
