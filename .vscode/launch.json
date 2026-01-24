@@ -105,5 +105,29 @@
             "stopAtEntry": false,
         },
 
+        {
+            "name": "Debug Debugging",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/07_2-debug/bin/Debug/net10.0/07_2-debug.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/07_2-debug",
+            "console": "integratedTerminal",
+            "stopAtEntry": false,
+        },
+
+        {
+            "name": "Debug If Else",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/08_1-if_else/bin/Debug/net10.0/08_1-if_else.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/08_1-if_else",
+            "console": "integratedTerminal",
+            "stopAtEntry": false,
+        },
+
     ]
 }
