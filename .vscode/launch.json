@@ -23,6 +23,17 @@
             "stopAtEntry": false,
         },
         {
+            "name": "Debug Day01",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/00-Hackerrank/Day01/bin/Debug/net10.0/Day01.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/00-Hackerrank/Day01",
+            "console": "integratedTerminal",
+            "stopAtEntry": false,
+        },
+        {
             "name": "Debug Day02",
             "type": "coreclr",
             "request": "launch",
@@ -33,6 +44,18 @@
             "console": "integratedTerminal",
             "stopAtEntry": false,
         },
+         {
+            "name": "Debug Day03",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/00-Hackerrank/Day03/bin/Debug/net10.0/Day03.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/00-Hackerrank/Day03",
+            "console": "integratedTerminal",
+            "stopAtEntry": false,
+        },
+
         {
             "name": "Debug Solve Me First",
             "type": "coreclr",
@@ -44,7 +67,6 @@
             "console": "integratedTerminal",
             "stopAtEntry": false,
         },
-
 
         {
             "name": "Debug Console",
@@ -68,7 +90,6 @@
             "console": "externalTerminal",
             "stopAtEntry": false,
         },
-
         {
             "name": "Debug Operatorler",
             "type": "coreclr",
@@ -80,7 +101,6 @@
             "console": "integratedTerminal",
             "stopAtEntry": false,
         },
-
         {
             "name": "Debug Tip Dönüşümleri",
             "type": "coreclr",
@@ -92,7 +112,6 @@
             "console": "integratedTerminal",
             "stopAtEntry": false,
         },
-
         {
             "name": "Debug Try Catch",
             "type": "coreclr",
@@ -104,7 +123,6 @@
             "console": "integratedTerminal",
             "stopAtEntry": false,
         },
-
         {
             "name": "Debug Debugging",
             "type": "coreclr",
@@ -116,7 +134,6 @@
             "console": "integratedTerminal",
             "stopAtEntry": false,
         },
-
         {
             "name": "Debug If Else",
             "type": "coreclr",
