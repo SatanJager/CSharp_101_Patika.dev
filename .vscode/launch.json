@@ -34,7 +34,7 @@
             "stopAtEntry": false,
         },
         {
-            "name": "Debug Day02",
+            "name": "Debug Solve Me First",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
@@ -94,7 +94,7 @@
         },
 
         {
-            "name": "Debug Tip Dönüşümleri",
+            "name": "Debug Try Catch",
             "type": "coreclr",
             "request": "launch",
             "preLaunchTask": "build",
