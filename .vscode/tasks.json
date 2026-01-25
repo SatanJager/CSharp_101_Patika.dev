@@ -105,6 +105,20 @@
       "command": "dotnet",
       "args": [
         "build",
+        "00-algorithms/staircase/staircase.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "build",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
         "03-Consol/03-Consol.csproj"
       ],
       "problemMatcher": "$msCompile",
@@ -225,5 +239,19 @@
         "isDefault": true
       }
     },
+    {
+      "label": "build",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "09_2-while/09_2-while.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
   ]
 }
