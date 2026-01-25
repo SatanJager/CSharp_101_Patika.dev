@@ -15,7 +15,9 @@ C# 101 dersleri, çalışmaları, kaynakçaları ve yapılan ödevleri içermekt
 ### Giriş
 * Programlama Dillerinin Tarihçesi
 * C# Tanımı
-### Kurulum
+### Kurulumlar
+* DotNet Kurulumu
+* VS Code Kurulumu
 ### Console Programlama 
 * Main Methodu 
 * Namespace kavramı 
@@ -24,7 +26,9 @@ C# 101 dersleri, çalışmaları, kaynakçaları ve yapılan ödevleri içermekt
 ### Değişkenler
 * Değişkenler ve Veri Tipleri
 ### Operatörler
+* Operatörler
 ### Tip Dönüşümleri
+* Tip Dönüşümleri
 ### Hata Yönetimi ve Kod İzleme
 * Try Catch Finally ve Mantıksal Hatalar
 * Debugging, Watch ve Variables Pencereleri
@@ -34,3 +38,16 @@ C# 101 dersleri, çalışmaları, kaynakçaları ve yapılan ödevleri içermekt
 ### Döngüler
 * For Loop ve Break Continue Ifadeleri
 * While Foreach
+### Diziler
+* Tanımlama, Erişim ve Döngülerle Dizi Kullanımı
+* Array Sınıfı Methodları
+### Metotlar
+* Metot Tanımlama
+* Metot Overloading
+* Rekürsif ve Extension Metotlar
+### Ödev 1
+* Algoritma Soruları
+### Csharp Hazır Metotlar
+*
+*
+
