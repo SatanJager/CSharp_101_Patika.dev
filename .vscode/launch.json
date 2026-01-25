@@ -55,7 +55,6 @@
             "console": "integratedTerminal",
             "stopAtEntry": false,
         },
-
         {
             "name": "Debug Solve Me First",
             "type": "coreclr",
@@ -67,7 +66,6 @@
             "console": "integratedTerminal",
             "stopAtEntry": false,
         },
-
         {
             "name": "Debug Console",
             "type": "coreclr",
@@ -142,6 +140,17 @@
             "program": "${workspaceFolder}/08_1-if_else/bin/Debug/net10.0/08_1-if_else.dll",
             "args": [],
             "cwd": "${workspaceFolder}/08_1-if_else",
+            "console": "integratedTerminal",
+            "stopAtEntry": false,
+        },
+         {
+            "name": "Debug Switch Case",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/08_2-switch_case/bin/Debug/net10.0/08_2-switch_case.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/08_2-switch_case",
             "console": "integratedTerminal",
             "stopAtEntry": false,
         },
