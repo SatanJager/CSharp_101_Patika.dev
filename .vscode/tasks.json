@@ -169,13 +169,27 @@
         "isDefault": true
       }
     },
-  {
+    {
       "label": "build",
       "type": "process",
       "command": "dotnet",
       "args": [
         "build",
         "08_2-switch_case/08_2-switch_case.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "build",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "09_1-for_loop/09_1-for_loop.csproj"
       ],
       "problemMatcher": "$msCompile",
       "group": {

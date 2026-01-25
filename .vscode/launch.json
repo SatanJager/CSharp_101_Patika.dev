@@ -154,6 +154,16 @@
             "console": "integratedTerminal",
             "stopAtEntry": false,
         },
-
+        {
+            "name": "Debug for loop",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/09_1-for_loop/bin/Debug/net10.0/09_1-for_loop.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/09_1-for_loop",
+            "console": "integratedTerminal",
+            "stopAtEntry": false,
+        },
     ]
 }
