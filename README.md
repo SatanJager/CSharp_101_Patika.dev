@@ -2,6 +2,8 @@
 
 C# 101 dersleri, çalışmaları, kaynakçaları ve yapılan ödevleri içermektedir.
 
+Bonus olarak HackerRank - 30 Days of Code ve HackerRank - Algorithms çözümleri de Repo'da bulunmaktadır.
+
 * Framework Version: .Net Framework 10.0
 * IDE: Visual Studio Code & Visiual Studio
 
@@ -9,6 +11,11 @@ C# 101 dersleri, çalışmaları, kaynakçaları ve yapılan ödevleri içermekt
 ## Ödevler
 
 *   
+
+## HackerRank - 30 Days of Code
+
+## HackerRank - Algorithms
+
 
 ## Dersler
 

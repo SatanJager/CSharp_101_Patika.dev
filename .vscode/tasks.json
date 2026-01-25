@@ -63,7 +63,35 @@
       "command": "dotnet",
       "args": [
         "build",
-        "00-Hackerrank/solve_me_first/solve_me_first.csproj"
+        "00-Hackerrank/Day04/Day04.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "build",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "00-Hackerrank/Day05/Day05.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "build",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "00-algorithms/solve_me_first/solve_me_first.csproj"
       ],
       "problemMatcher": "$msCompile",
       "group": {
