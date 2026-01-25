@@ -175,7 +175,7 @@
       "command": "dotnet",
       "args": [
         "build",
-        "08_1-if_else/08_2-switch_case.csproj"
+        "08_2-switch_case/08_2-switch_case.csproj"
       ],
       "problemMatcher": "$msCompile",
       "group": {
