@@ -252,6 +252,23 @@
         "kind": "build",
         "isDefault": true
       }
-    }
+    },
+    {
+      "label": "build",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "10_1-tanimlama/10_1-tanimlama.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+
+
+
   ]
 }

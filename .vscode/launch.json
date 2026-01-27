@@ -210,5 +210,16 @@
             "console": "integratedTerminal",
             "stopAtEntry": false,
         },
+        {
+            "name": "Debug Tanimlama",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/10_1-tanimlama/bin/Debug/net10.0/10_1-tanimlama.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/10_1-tanimlama",
+            "console": "integratedTerminal",
+            "stopAtEntry": false,
+        },
     ]
 }
