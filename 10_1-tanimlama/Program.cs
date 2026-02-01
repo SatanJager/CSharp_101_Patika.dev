@@ -97,14 +97,33 @@ class Program
 
         //Konsoldan gelen sayıları bir diziye atayıp ortalamasını hesaplama
         Console.WriteLine("Kaç adet sayı gireceksiniz?");
-        int diziUzunlugu = int.Parse(Console.ReadLine());  //Dizi boyutunu kullanıcıdan al
+        int diziUzunlugu = 0;
+        try
+        {
+            diziUzunlugu = int.Parse(Console.ReadLine());
+        }
+        catch (FormatException)
+        {
+            Console.WriteLine("Lütfen geçerli bir sayı girin.");
+            return;
+        }
+       
+
 
         int[] kullaniciSayilari = new int[diziUzunlugu];
-
-        for (int i = 0; i < diziUzunlugu; i++)
+        try
+        {
+            for (int i = 0; i < diziUzunlugu; i++)
         {
             Console.WriteLine(i + 1 + ". sayıyı girin:");
             kullaniciSayilari[i] = int.Parse(Console.ReadLine());
+        }
+        }
+        catch (Exception ex)
+        {
+            Console.WriteLine("Lütfen geçerli bir sayı girin.");
+            Console.WriteLine("Hata mesajı: " + ex.Message);
+            return;
         }
 
         //Ortalama hesaplama
