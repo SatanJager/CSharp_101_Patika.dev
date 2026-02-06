@@ -13,8 +13,12 @@ Bonus olarak HackerRank - 30 Days of Code ve HackerRank - Algorithms çözümler
 *   
 
 ## HackerRank - 30 Days of Code
+* Day 00 - 30
 
 ## HackerRank - Algorithms
+* Plus Minus
+* Solve Me First
+* Staircase
 
 
 ## Dersler
