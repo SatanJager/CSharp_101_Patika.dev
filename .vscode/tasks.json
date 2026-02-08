@@ -133,6 +133,20 @@
       "command": "dotnet",
       "args": [
         "build",
+        "00-algorithms/simple_array_sum/simple_array_sum.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "build",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
         "00-algorithms/solve_me_first/solve_me_first.csproj"
       ],
       "problemMatcher": "$msCompile",
