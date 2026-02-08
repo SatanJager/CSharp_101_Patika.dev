@@ -91,6 +91,34 @@
       "command": "dotnet",
       "args": [
         "build",
+        "00-algorithms/birthday_cake_candles/birthday_cake_candles.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "build",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "00-algorithms/migratory_birds/migratory_birds.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "build",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
         "00-algorithms/plus_minus/plus_minus.csproj"
       ],
       "problemMatcher": "$msCompile",

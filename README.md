@@ -16,10 +16,10 @@ Bonus olarak HackerRank - 30 Days of Code ve HackerRank - Algorithms çözümler
 * Day 00 - 30
 
 ## HackerRank - Algorithms
+* Birthday Cake Candles
 * Plus Minus
 * Solve Me First
 * Staircase
-
 
 ## Dersler
 
