@@ -144,6 +144,17 @@
             "stopAtEntry": false,
         },
         {
+            "name": "Debug A Very Big Sum",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/00-algorithms/very_big_sum/bin/Debug/net10.0/very_big_sum.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/00-algorithms/very_big_sum",
+            "console": "integratedTerminal",
+            "stopAtEntry": false,
+        },
+        {
             "name": "Debug Console",
             "type": "coreclr",
             "request": "launch",

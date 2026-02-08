@@ -175,6 +175,20 @@
       "command": "dotnet",
       "args": [
         "build",
+        "00-algorithms/very_big_sum/very_big_sum.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "build",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
         "03-Consol/03-Consol.csproj"
       ],
       "problemMatcher": "$msCompile",
