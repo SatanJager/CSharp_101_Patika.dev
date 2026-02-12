@@ -105,7 +105,35 @@
       "command": "dotnet",
       "args": [
         "build",
+        "00-Hackerrank/Day20/Day20.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "build",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
         "00-algorithms/birthday_cake_candles/birthday_cake_candles.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+{
+      "label": "build",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "00-algorithms/compare_triplets/compare_triplets.csproj"
       ],
       "problemMatcher": "$msCompile",
       "group": {
