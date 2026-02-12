@@ -91,6 +91,20 @@
       "command": "dotnet",
       "args": [
         "build",
+        "00-Hackerrank/Day07/Day07.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "build",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
         "00-algorithms/birthday_cake_candles/birthday_cake_candles.csproj"
       ],
       "problemMatcher": "$msCompile",

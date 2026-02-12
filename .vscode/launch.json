@@ -78,6 +78,17 @@
             "stopAtEntry": false,
         },
         {
+            "name": "Debug Day07",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/00-Hackerrank/Day07/bin/Debug/net10.0/Day07.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/00-Hackerrank/Day07",
+            "console": "integratedTerminal",
+            "stopAtEntry": false,
+        },
+        {
             "name": "Debug Birthday Cake Candles",
             "type": "coreclr",
             "request": "launch",
