@@ -319,5 +319,16 @@
             "console": "integratedTerminal",
             "stopAtEntry": false,
         },
+        {
+            "name": "Debug Metotlar-1",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/11_1-metotlar/bin/Debug/net10.0/11_1-metotlar.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/11_1-metotlar",
+            "console": "integratedTerminal",
+            "stopAtEntry": false,
+        },
     ]
 }
