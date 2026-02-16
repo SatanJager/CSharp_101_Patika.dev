@@ -407,7 +407,20 @@
         "isDefault": true
       }
     },
-
+    {
+      "label": "build",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "11_2-metot_overload/11_2-metot_overload.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
 
   ]
 }

@@ -330,5 +330,16 @@
             "console": "integratedTerminal",
             "stopAtEntry": false,
         },
+         {
+            "name": "Debug Metotlar-2",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build",
+            "program": "${workspaceFolder}/11_2-metot_overload/bin/Debug/net10.0/11_2-metot_overload.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/11_2-metot_overload",
+            "console": "integratedTerminal",
+            "stopAtEntry": false,
+        },
     ]
 }
