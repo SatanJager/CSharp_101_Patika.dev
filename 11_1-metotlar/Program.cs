@@ -14,6 +14,15 @@ class Program
             //return
         //}
 
+        //erişim_belirtici: public, private, internal, protected
+        //geri_donustipi: void, int, string vs.
+        //paramereListesi/arguman: metot çalışırken kullanacağı değişkenler
+        //arguamanlar, parametreler metot çağırılırken gönderilen değerlerdir. Metot tanımlanırken parametreler belirtilir, metot çağırılırken ise argümanlar gönderilir.
+        //metot çağırma: metotAdi(argumanlar)
+        //metot çağırma işlemi, metot tanımlandıktan sonra yapılır. Metot tanımlanmadan önce çağrılırsa hata alınır.
+        //metot imzası: metotAdı + parametre sayısı + parametre türü
+        
+
         int a = 2;
         int b = 3;
 

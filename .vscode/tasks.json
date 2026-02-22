@@ -2,7 +2,7 @@
   "version": "2.0.0",
   "tasks": [
     {
-      "label": "build",
+      "label": "build-day00",
       "type": "process",
       "command": "dotnet",
       "args": [
@@ -16,7 +16,7 @@
       }
     },
     {
-      "label": "build",
+      "label": "build-day01",
       "type": "process",
       "command": "dotnet",
       "args": [
@@ -30,7 +30,7 @@
       }
     },
     {
-      "label": "build",
+      "label": "build-day02",
       "type": "process",
       "command": "dotnet",
       "args": [
@@ -44,7 +44,7 @@
       }
     },
     {
-      "label": "build",
+      "label": "build-day03",
       "type": "process",
       "command": "dotnet",
       "args": [
@@ -58,7 +58,7 @@
       }
     },
     {
-      "label": "build",
+      "label": "build-day04",
       "type": "process",
       "command": "dotnet",
       "args": [
@@ -72,7 +72,7 @@
       }
     },
     {
-      "label": "build",
+      "label": "build-day05",
       "type": "process",
       "command": "dotnet",
       "args": [
@@ -86,7 +86,7 @@
       }
     },
     {
-      "label": "build",
+      "label": "build-day07",
       "type": "process",
       "command": "dotnet",
       "args": [
@@ -100,7 +100,7 @@
       }
     },
     {
-      "label": "build",
+      "label": "build-day20",
       "type": "process",
       "command": "dotnet",
       "args": [
@@ -114,7 +114,7 @@
       }
     },
     {
-      "label": "build",
+      "label": "build-birthday_cake_candles",
       "type": "process",
       "command": "dotnet",
       "args": [
@@ -128,7 +128,7 @@
       }
     },
 {
-      "label": "build",
+      "label": "build-compare_triplets",
       "type": "process",
       "command": "dotnet",
       "args": [
@@ -142,7 +142,7 @@
       }
     },
     {
-      "label": "build",
+      "label": "build-migratory_birds",
       "type": "process",
       "command": "dotnet",
       "args": [
@@ -156,7 +156,7 @@
       }
     },
     {
-      "label": "build",
+      "label": "build-plus_minus",
       "type": "process",
       "command": "dotnet",
       "args": [
@@ -170,7 +170,7 @@
       }
     },
     {
-      "label": "build",
+      "label": "build-simple_array_sum",
       "type": "process",
       "command": "dotnet",
       "args": [
@@ -184,7 +184,7 @@
       }
     },
     {
-      "label": "build",
+      "label": "build-solve_me_first",
       "type": "process",
       "command": "dotnet",
       "args": [
@@ -198,7 +198,7 @@
       }
     },
     {
-      "label": "build",
+      "label": "build-staircase",
       "type": "process",
       "command": "dotnet",
       "args": [
@@ -212,7 +212,7 @@
       }
     },
     {
-      "label": "build",
+      "label": "build-very_big_sum",
       "type": "process",
       "command": "dotnet",
       "args": [
@@ -226,7 +226,7 @@
       }
     },
     {
-      "label": "build",
+      "label": "build-03-consol",
       "type": "process",
       "command": "dotnet",
       "args": [
@@ -240,7 +240,7 @@
       }
     },
     {
-      "label": "build",
+      "label": "build-04-degisken",
       "type": "process",
       "command": "dotnet",
       "args": [
@@ -254,7 +254,7 @@
       }
     },
     {
-      "label": "build",
+      "label": "build-05-operatorler",
       "type": "process",
       "command": "dotnet",
       "args": [
@@ -268,7 +268,7 @@
       }
     },
     {
-      "label": "build",
+      "label": "build-06-tip_donusumleri",
       "type": "process",
       "command": "dotnet",
       "args": [
@@ -282,7 +282,7 @@
       }
     },
     {
-      "label": "build",
+      "label": "build-07_1-try_catch",
       "type": "process",
       "command": "dotnet",
       "args": [
@@ -296,7 +296,7 @@
       }
     },
     {
-      "label": "build",
+      "label": "build-07_2-debug",
       "type": "process",
       "command": "dotnet",
       "args": [
@@ -310,7 +310,7 @@
       }
     },
     {
-      "label": "build",
+      "label": "build-08_1-if_else",
       "type": "process",
       "command": "dotnet",
       "args": [
@@ -324,7 +324,7 @@
       }
     },
     {
-      "label": "build",
+      "label": "build-08_2-switch_case",
       "type": "process",
       "command": "dotnet",
       "args": [
@@ -338,7 +338,7 @@
       }
     },
     {
-      "label": "build",
+      "label": "build-09_1-for_loop",
       "type": "process",
       "command": "dotnet",
       "args": [
@@ -352,7 +352,7 @@
       }
     },
     {
-      "label": "build",
+      "label": "build-09_2-while",
       "type": "process",
       "command": "dotnet",
       "args": [
@@ -366,7 +366,7 @@
       }
     },
     {
-      "label": "build",
+      "label": "build-10_1-tanimlama",
       "type": "process",
       "command": "dotnet",
       "args": [
@@ -380,7 +380,7 @@
       }
     },
     {
-      "label": "build",
+      "label": "build-10_2-array",
       "type": "process",
       "command": "dotnet",
       "args": [
@@ -394,7 +394,7 @@
       }
     },
     {
-      "label": "build",
+      "label": "build-11_1-metotlar",
       "type": "process",
       "command": "dotnet",
       "args": [
@@ -408,7 +408,7 @@
       }
     },
     {
-      "label": "build",
+      "label": "build-11_2-metot_overload",
       "type": "process",
       "command": "dotnet",
       "args": [
@@ -421,6 +421,23 @@
         "isDefault": true
       }
     },
+    {
+      "label": "build-11_3-metot_rex",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "11_3-metot_rex/11_3-metot_rex.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+
+
+
 
   ]
 }

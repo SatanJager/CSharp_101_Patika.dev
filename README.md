@@ -17,11 +17,13 @@ Bonus olarak HackerRank - 30 Days of Code ve HackerRank - Algorithms çözümler
 
 ## HackerRank - Algorithms
 * Birthday Cake Candles
+* Compare Triplets
 * Migratory Birds
 * Plus Minus
 * Simple Array Sum
 * Solve Me First
 * Staircase
+* Very Big Sum
 
 ## Dersler
 

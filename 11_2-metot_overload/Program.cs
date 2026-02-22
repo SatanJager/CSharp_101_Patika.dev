@@ -6,7 +6,13 @@ class Program
     {
         // Metot Overloading
 
+        // Metot aşırı yükleme (overloading), aynı isimde ancak farklı parametre listelerine sahip birden fazla metot tanımlama yeteneğidir. Bu, programcıların aynı işlemi gerçekleştiren ancak farklı türlerde veya sayıda parametre alan metotlar oluşturmasına olanak tanır. Derleyici, çağrılan metotun hangi versiyonunun kullanılacağını belirlemek için parametrelerin türüne ve sayısına bakar.
+        // Örneğin, bir "EkranaYazdir" metodu, hem string hem de int türünde parametre alacak şekilde aşırı yüklenebilir. Böylece, aynı metot adıyla farklı türlerde verileri ekrana yazdırmak mümkün olur.
+
         //out parametreler
+        //out parametreler, bir metot tarafından geri döndürülen bir değeri temsil eder. Bir metot, out parametreleri kullanarak birden fazla değer döndürebilir. Out parametreler, metot çağrılırken argüman olarak belirtilir ve metot içinde atanır. Metot çağrıldıktan sonra, out parametrenin değeri çağıran tarafa geri döner.
+        //out parametreler, özellikle bir metot tarafından hesaplanan bir değeri geri döndürmek istediğinizde kullanışlıdır. Örneğin, bir metot bir işlemi gerçekleştirirken aynı zamanda bir sonucu da hesaplayabilir ve bu sonucu out parametre olarak döndürebilir.
+        
 
         string sayi = "999";
 
