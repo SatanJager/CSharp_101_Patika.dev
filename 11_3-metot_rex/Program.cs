@@ -20,7 +20,7 @@ class Program
         result = result * 3;
         Console.WriteLine(result);
 
-        // Rekürsif metotla
+        // Rekürsif metotlar
         Islemler instance = new();
         Console.WriteLine(instance.Expo(3,4));
 
