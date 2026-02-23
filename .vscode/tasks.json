@@ -100,6 +100,20 @@
       }
     },
     {
+      "label": "build-day09",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "00-Hackerrank/Day09/Day09.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
       "label": "build-day20",
       "type": "process",
       "command": "dotnet",
@@ -428,6 +442,20 @@
       "args": [
         "build",
         "11_3-metot_rex/11_3-metot_rex.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "build-12-odev1",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "12-odev1/12-odev1.csproj"
       ],
       "problemMatcher": "$msCompile",
       "group": {

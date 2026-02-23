@@ -25,7 +25,7 @@ class Program
         }
         else 
         {
-            Console.WriteLine("Başararısız");
+            Console.WriteLine("Başarısız");
         }
 
         Metotlar instance = new Metotlar();
