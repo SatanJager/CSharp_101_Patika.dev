@@ -463,6 +463,20 @@
         "isDefault": true
       }
     },
+    {
+      "label": "build-13_1-string_metotlar",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "13_1-string_metotlar/13_1-string_metotlar.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
 
 
 
