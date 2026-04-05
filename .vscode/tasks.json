@@ -86,6 +86,20 @@
       }
     },
     {
+      "label": "build-day06",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "00-Hackerrank/Day06/Day06.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
       "label": "build-day07",
       "type": "process",
       "command": "dotnet",
@@ -106,6 +120,20 @@
       "args": [
         "build",
         "00-Hackerrank/Day09/Day09.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "build-day16",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "00-Hackerrank/Day16/Day16.csproj"
       ],
       "problemMatcher": "$msCompile",
       "group": {
@@ -477,7 +505,20 @@
         "isDefault": true
       }
     },
-
+    {
+      "label": "build-13_2-datetime_math",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "13_2-datetime_math/13_2-datetime_math.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    }
 
 
 

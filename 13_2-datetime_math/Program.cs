@@ -1,0 +1,9 @@
+﻿namespace _13_2_datetime_math;
+
+class Program
+{
+    static void Main(string[] args)
+    {
+        Console.WriteLine("Hello, World!");
+    }
+}
