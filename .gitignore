@@ -33,6 +33,9 @@ password.txt
 *.sln.docstates
 *.env
 
+# User-specific files (Workspaces in Visual Studio Code are not meant to be shared, but if you have a good reason, uncomment next line)
+*.sln
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
