@@ -254,6 +254,20 @@
       }
     },
     {
+      "label": "build-time_conversion",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "00-algorithms/time_conversion/time_conversion.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
       "label": "build-very_big_sum",
       "type": "process",
       "command": "dotnet",
