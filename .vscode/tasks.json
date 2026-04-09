@@ -142,6 +142,20 @@
       }
     },
     {
+      "label": "build-day17",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "00-Hackerrank/Day17/Day17.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
       "label": "build-day20",
       "type": "process",
       "command": "dotnet",
@@ -532,8 +546,21 @@
         "kind": "build",
         "isDefault": true
       }
+    },
+    {
+      "label": "build-14_1-koleksiyonlar",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "14_1-koleksiyonlar/14_1-koleksiyonlar.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
     }
-
 
 
   ]
