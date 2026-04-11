@@ -23,6 +23,7 @@ Bonus olarak HackerRank - 30 Days of Code ve HackerRank - Algorithms çözümler
 * Simple Array Sum
 * Solve Me First
 * Staircase
+* Time Conversion
 * Very Big Sum
 
 ## Dersler
@@ -63,6 +64,15 @@ Bonus olarak HackerRank - 30 Days of Code ve HackerRank - Algorithms çözümler
 ### Ödev 1
 * Algoritma Soruları
 ### Csharp Hazır Metotlar
-*
-*
-
+* String Metotlar
+* Datetime ve Math Sınıfları
+### Koleksiyonlar
+* Koleksiyonlar Nedir? Avantajları ve Dezavantajları Nelerdir?
+[Boxing ve Unboxing Performans Kritiği](https://www.buraksenyurt.com/post/Boxing-ve-Unboxing-Performans-Kritigi-bsenyurt-com-dan)
+[Stack & Heap Kavramları](https://gokhan-gokalp.com/tr/stack-heap-kavramlari/)
+[Stack ve Heap Arasındaki Fark Nedir?](https://medium.com/yigit-xcodeproj/stack-ve-heap-arasindaki-fark-nedir-stack-vs-heap-c61e3d463dd7)
+* Generic Koleksiyonlar ve List
+* ArrayList
+* Dictionary
+### Ödev 2
+### Sınıf Kavramı
