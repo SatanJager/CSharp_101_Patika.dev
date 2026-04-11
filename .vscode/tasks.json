@@ -170,6 +170,20 @@
       }
     },
     {
+      "label": "build-day21",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "00-Hackerrank/Day21/Day21.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
       "label": "build-birthday_cake_candles",
       "type": "process",
       "command": "dotnet",
@@ -554,6 +568,34 @@
       "args": [
         "build",
         "14_1-koleksiyonlar/14_1-koleksiyonlar.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "build-14_2-koleksiyonlar",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "14_2-koleksiyonlar/14_2-koleksiyonlar.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
+    },
+    {
+      "label": "build-14_3-koleksiyonlar",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "14_3-koleksiyonlar/14_3-koleksiyonlar.csproj"
       ],
       "problemMatcher": "$msCompile",
       "group": {
