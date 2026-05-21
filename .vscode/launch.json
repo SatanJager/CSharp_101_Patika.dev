@@ -484,5 +484,16 @@
             "console": "integratedTerminal",
             "stopAtEntry": false,
         },
+        {
+            "name": "Debug Dictionary",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-14_4-koleksiyonlar",
+            "program": "${workspaceFolder}/14_4-koleksiyonlar/bin/Debug/net10.0/14_4-koleksiyonlar.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/14_4-koleksiyonlar",
+            "console": "integratedTerminal",
+            "stopAtEntry": false,
+        },
     ]
 }

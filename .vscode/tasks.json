@@ -602,8 +602,21 @@
         "kind": "build",
         "isDefault": true
       }
+    },
+    {
+      "label": "build-14_4-koleksiyonlar",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "14_4-koleksiyonlar/14_4-koleksiyonlar.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
     }
-
 
   ]
 }
