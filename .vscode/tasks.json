@@ -630,6 +630,20 @@
         "kind": "build",
         "isDefault": true
       }
+    },
+    {
+      "label": "build-15_1-odev2",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "15-odev2/15_1-odev2/15_1-odev2.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
     }
 
   ]

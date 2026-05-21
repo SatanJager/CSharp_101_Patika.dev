@@ -506,5 +506,16 @@
             "console": "integratedTerminal",
             "stopAtEntry": false,
         },
+        {
+            "name": "Debug 15_1-odev2",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-15_1-odev2",
+            "program": "${workspaceFolder}/15-odev2/15_1-odev2/bin/Debug/net10.0/15_1-odev2.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/15-odev2/15_1-odev2",
+            "console": "integratedTerminal",
+            "stopAtEntry": false,
+        },
     ]
 }
