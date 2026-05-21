@@ -100,6 +100,17 @@
             "stopAtEntry": false,
         },
         {
+            "name": "Debug Day08",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-day08",
+            "program": "${workspaceFolder}/00-Hackerrank/Day08/bin/Debug/net10.0/Day08.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/00-Hackerrank/Day08",
+            "console": "integratedTerminal",
+            "stopAtEntry": false,
+        },
+        {
             "name": "Debug Day09",
             "type": "coreclr",
             "request": "launch",
