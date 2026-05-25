@@ -13,8 +13,6 @@ class Program
         else
         {
             Console.WriteLine("Not Weird");
-           
         }
-
     }
 }
