@@ -10,7 +10,8 @@ Bonus olarak HackerRank - 30 Days of Code ve HackerRank - Algorithms çözümler
 
 ## Ödevler
 
-*   
+* Ödev 1 - Algoritma Soruları
+* Ödev 2 - Koleksiyonlar Soruları (Soru 1-2-3)
 
 ## HackerRank - 30 Days of Code
 * Day 00 - 30
