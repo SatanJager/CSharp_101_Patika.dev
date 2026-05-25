@@ -637,7 +637,7 @@
       "command": "dotnet",
       "args": [
         "build",
-        "15-odev2/15_1-odev2/15_1-odev2.csproj"
+        "15-odev2/Koleksiyonlar-Soru-1/15_1-odev2.csproj"
       ],
       "problemMatcher": "$msCompile",
       "group": {
@@ -651,7 +651,7 @@
       "command": "dotnet",
       "args": [
         "build",
-        "15-odev2/15_2-odev2/15_2-odev2.csproj"
+        "15-odev2/Koleksiyonlar-Soru-2/15_2-odev2.csproj"
       ],
       "problemMatcher": "$msCompile",
       "group": {
@@ -665,7 +665,7 @@
       "command": "dotnet",
       "args": [
         "build",
-        "15-odev2/15_3-odev2/15_3-odev2.csproj"
+        "15-odev2/Koleksiyonlar-Soru-3/15_3-odev2.csproj"
       ],
       "problemMatcher": "$msCompile",
       "group": {
