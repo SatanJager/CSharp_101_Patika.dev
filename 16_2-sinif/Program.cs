@@ -23,8 +23,9 @@ class Program
         Console.WriteLine("Çalışan 2 Bilgileri:");
         calisan2.CalisanBilgileri();
         
-
-
+        Console.WriteLine("Çalışan 3 Bilgileri:");
+        Calisan calisan3 = new Calisan("Zikriye", "Ürkmez");
+        calisan3.CalisanBilgileri();
 
     }
 }
@@ -44,12 +45,12 @@ class Calisan
         this.Departman = departman;
     }
 
-    public Calisan()
+    //initial değerleri atar. string = null, i
+    public Calisan(string ad, string soyad) // Aşırı yükleme / Overload metod
     {
-    
+        this.Ad = ad;
+        this.Soyad = soyad;
     }
-
-
 
     public void CalisanBilgileri()
     {
