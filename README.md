@@ -76,4 +76,15 @@ Bonus olarak HackerRank - 30 Days of Code ve HackerRank - Algorithms çözümler
 * ArrayList
 * Dictionary
 ### Ödev 2
+* Koleksiyonlar-Soru-1
+* Koleksiyonlar-Soru-2
+* Koleksiyonlar-Soru-3
 ### Sınıf Kavramı
+* Sınıf Nedir? Instance, Field, ve Metot Tanımlama, Erişim Belirleyiciler
+* Erişim Belirleyiciler ve Constructor Fonksiyonlar (Kurucu-Yapıcı)
+* Encapsulation ve Property Kavramı
+* Static Sınıf ve Üyeler
+* Struct(Yapı) Kavramı
+* Enum
+### Nesneye Dayalı Programlama
+* Object Orientented Programming (OOP) Nedir?

@@ -539,5 +539,16 @@
             "console": "integratedTerminal",
             "stopAtEntry": false,
         },
+        {
+            "name": "Debug Sinif",
+            "type": "coreclr",
+            "request": "launch",
+            "preLaunchTask": "build-16_1-sinif",
+            "program": "${workspaceFolder}/16_1-sinif/bin/Debug/net10.0/16_1-sinif.dll",
+            "args": [],
+            "cwd": "${workspaceFolder}/16_1-sinif",
+            "console": "integratedTerminal",
+            "stopAtEntry": false,
+        },
     ]
 }

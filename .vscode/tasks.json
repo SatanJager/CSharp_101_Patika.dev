@@ -672,6 +672,20 @@
         "kind": "build",
         "isDefault": true
       }
+    },
+    {
+      "label": "build-16_1-sinif",
+      "type": "process",
+      "command": "dotnet",
+      "args": [
+        "build",
+        "16_1-sinif/16_1-sinif.csproj"
+      ],
+      "problemMatcher": "$msCompile",
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      }
     }
 
   ]
