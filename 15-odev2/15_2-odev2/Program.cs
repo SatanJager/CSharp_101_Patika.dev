@@ -10,8 +10,9 @@ class Program
         // Soru - 2: 
         // Klavyeden girilen 20 adet sayının en büyük 3 tanesi ve en küçük 3 tanesi bulan, her iki grubun kendi içerisinde ortalamalarını alan ve bu ortalamaları ve ortalama toplamlarını console'a yazdıran programı yazınız. (Array sınıfını kullanarak yazınız.)
 
-        int n = 20; // Pozitif tam sayı adedi
-        ArrayList sayilarKumesi = new ArrayList();
+        int n = 20; // Tam sayı adedi
+        
+        int[] sayilarKumesi = new int[n]; // Array kullanarak sayıları saklamak için bir dizi oluşturduk
         
         // Klavyeden pozitif tam sayıları alma
         for (int i = 0; i < n; i++)
@@ -21,7 +22,7 @@ class Program
             try
             {
                 int sayi = Convert.ToInt32(Console.ReadLine());
-                sayilarKumesi.Add(sayi);
+                sayilarKumesi.SetValue(sayi, i); // Girilen sayıyı diziye ekleme
 
             }
             catch (FormatException)
@@ -32,16 +33,16 @@ class Program
         }
 
         // Girilen sayıları sıralama
-        sayilarKumesi.Sort();
+        Array.Sort(sayilarKumesi);
 
         // En büyük 3 sayı ve en küçük 3 sayıyı alma
-        ArrayList enKucukUc = new ArrayList();
-        ArrayList enBuyukUc = new ArrayList();
-
+        int[] enKucukUc = new int[3];
+        int[] enBuyukUc = new int[3];
+        
         for (int i = 0; i < 3; i++)
         {
-            enKucukUc.Add(sayilarKumesi[i]);
-            enBuyukUc.Add(sayilarKumesi[sayilarKumesi.Count - 1 - i]);
+            enKucukUc[i] = (int)sayilarKumesi.GetValue(i);
+            enBuyukUc[i] = (int)sayilarKumesi.GetValue(sayilarKumesi.Length - 1 - i);
         }
 
         double ortalamaEnKucukUc = Ortalama(enKucukUc);
@@ -69,14 +70,14 @@ class Program
     }
 
     //Ortalama hesaplama metodu
-    static double Ortalama(ArrayList sayilar)
+    static double Ortalama(int[] sayilar)
     {
         double toplam = 0;
         foreach (int sayi in sayilar)
         {
             toplam += sayi;
         }
-        return toplam / sayilar.Count;
+        return toplam / (double)sayilar.Length;
     }
 
 

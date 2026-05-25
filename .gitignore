@@ -15,6 +15,7 @@
 *.vsix
 
 ## Spreadsheet
+*.txt
 *.docx
 *.xlsx
 password.txt
