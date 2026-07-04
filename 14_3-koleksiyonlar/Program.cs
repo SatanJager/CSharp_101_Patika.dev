@@ -19,7 +19,7 @@ class Program
         sayiListesi.Add(92);
         sayiListesi.Add(34);       
 
-        //içerisindeki elemanlara erişim
+        //içerisindeki elemanlara erişim / index yönetimi
         
         Console.WriteLine(sayiListesi[0]); // 23
         Console.WriteLine(sayiListesi[3]); // 5
@@ -88,14 +88,14 @@ class Program
             Console.WriteLine(item);
         }
 
-        Console.WriteLine("***** Binary Search *****");
+        Console.WriteLine("***** BinarySearch() *****");
         //Binary Search --> sıralı liste ve Array Listlerde çalışır. --> kaçıncı eleman (index) olduğunu getirir.
         
         Console.WriteLine("133'ün index numarası:");
-        Console.WriteLine(siraList.BinarySearch(133));
+        Console.WriteLine(siraList.BinarySearch(133));  // 5
 
         // Reverse() Metodu      --> sıralanmış listeyi sondan başa aynalar
-        Console.WriteLine("***** Reverse *****");
+        Console.WriteLine("***** Reverse() *****");
 
         siraList.Reverse();
         foreach (var item in siraList)
@@ -104,7 +104,7 @@ class Program
         }
 
         //Clear() listeyi temizler
-        Console.WriteLine("***** Clear *****");
+        Console.WriteLine("***** Clear() *****");
 
         siraList.Clear();
         Console.WriteLine("siraList elaman sayısı Clear() metodundan sonra: {0}", siraList.Count);

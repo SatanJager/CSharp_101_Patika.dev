@@ -32,8 +32,8 @@ class Program
 
         //Count özelliği, koleksiyondaki eleman sayısını döndürür.
         Console.WriteLine("Count ile koleksiyonlardaki eleman sayısı:");
-        Console.WriteLine(sayiListesi.Count);
-        Console.WriteLine(renkListesi.Count);
+        Console.WriteLine("Sayı listesi eleman sayısı: {0}", sayiListesi.Count);
+        Console.WriteLine("Renk listesi eleman sayısı: {0}", renkListesi.Count);
 
         //foreach döngüsü ile koleksiyon elemanlarına erişim
         Console.WriteLine("foreach döngüsü ile koleksiyonlardaki elemanlara erişim:");    
@@ -47,7 +47,10 @@ class Program
             Console.WriteLine(renk);
         }
 
+        //List<T> koleksiyonunda ForEach metodu ile elemanlara erişim
+        Console.WriteLine("ForEach metodu ile koleksiyonlardaki elemanlara erişim:");
         sayiListesi.ForEach(sayi => Console.WriteLine(sayi));
+        renkListesi.ForEach(renk => Console.WriteLine(renk));
 
         //Listeden eleman silme
         Console.WriteLine("Listeden eleman silme:");
@@ -59,6 +62,7 @@ class Program
         Console.WriteLine("Renk Listesi elamanları:");
         renkListesi.ForEach(renk => Console.WriteLine(renk));
 
+        //Listeden eleman silme - İndeks ile silme
         sayiListesi.RemoveAt(0); // İndeks ile silme
         Console.WriteLine("Sayı Listesi elamanları:");
         sayiListesi.ForEach(sayi => Console.WriteLine(sayi));
