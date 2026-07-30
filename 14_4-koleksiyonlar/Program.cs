@@ -58,6 +58,9 @@ class Program
             Console.WriteLine("12 anahtarı sözlükte mevcut değil.");
         }
 
+
+        Console.WriteLine("18 anahtarı Dictionary'de var mı? {0}", kullanicilar.ContainsKey(18)); // true
+
         // ContainsValue() - Belirtilen değerin sözlükte olup olmadığını kontrol eder
         Console.WriteLine("**** Dictionary ContainsValue() *****"); 
 
@@ -69,6 +72,8 @@ class Program
         {
             Console.WriteLine("Deniz Arda değeri sözlükte mevcut değil.");
         }
+
+        Console.WriteLine("Zikriye Ürkmez Value'su Dictionary'de var mı? {0}", kullanicilar.ContainsValue("Zikriye Ürkmez")); // false
 
         Console.WriteLine("**** Unique olmayan elemanlar *****");
         // Runtime error: Aynı anahtar tekrar eklenemez

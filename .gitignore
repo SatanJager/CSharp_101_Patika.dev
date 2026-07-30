@@ -11,6 +11,8 @@
 !.vscode/*.code-snippets
 !*.code-workspace
 
+Net_Core_101_patika.dev.sln
+
 # Built Visual Studio Code Extensions
 *.vsix
 
